@@ -1,0 +1,136 @@
+body{
+  background-color: rgba(215, 209, 214, 0.58);
+}
+
+.wizard {
+    margin: 20px auto;
+    background: #fff;
+}
+.tab-content{border:0px;}
+    .wizard .nav-tabs {
+        position: relative;
+        margin: 40px auto;
+        margin-bottom: 0;
+        border-bottom-color: #e0e0e0;
+    }
+
+    .wizard > div.wizard-inner {
+        position: relative;
+    }
+
+.connecting-line {
+    height: 2px;
+    background: #e0e0e0;
+    position: absolute;
+    width: 80%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    z-index: 1;
+}
+
+.wizard .nav-tabs > li.active > a, .wizard .nav-tabs > li.active > a:hover, .wizard .nav-tabs > li.active > a:focus {
+    color: #555555;
+    cursor: default;
+    border: 0;
+    border-bottom-color: transparent;
+}
+
+span.round-tab {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    display: inline-block;
+    border-radius: 100px;
+    background: #fff;
+    border: 2px solid #e0e0e0;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    font-size: 25px;
+
+}
+span.round-tab i{
+    color:#555555;
+}
+.wizard li.active span.round-tab {
+     background-color: #e8690d;
+    border: 2px solid ;
+    color: #fff;
+}
+.wizard li.active span.round-tab i{
+    color: #e8690d;
+}
+
+
+
+.wizard .nav-tabs > li {
+    width: 20%;
+}
+
+
+
+
+
+.wizard .nav-tabs > li a {
+    width: 70px;
+    height: 70px;
+    margin: 20px auto;
+    border-radius: 100%;
+    padding: 0;
+}
+
+    .wizard .nav-tabs > li a:hover {
+        background: transparent;
+    }
+.wizard .nav-tabs > li a:active {
+        background: transparent;
+    }
+.wizard .tab-pane {
+    position: relative;
+    padding-top: 50px;
+}
+
+.wizard h3 {
+    margin-top: 0;
+}
+.m-top{
+margin-top:25px;
+}
+@media( max-width : 585px ) {
+}
+.ls, input, label{
+  letter-spacing:1px;
+}
+.color-teal{
+  color:#e8690d;
+}
+.nav-tabs{
+  background-color:rgba(164, 164, 164, 0.67);
+  border-bottom:0px;
+}
+.tab-content{
+  background-color:#fafafa;
+  color:#e8690d;
+}
+.bg-trans{
+  background-color:transparent;
+}
+.f-right{
+  float:right;
+}
+.icon-size{
+  font-size:24px;
+}
+.m-10{
+  margin-right:10px;
+}
+.p0{
+  padding:0px;
+}
+
+#columna-botones{
+  margin-top: 40px;
+}

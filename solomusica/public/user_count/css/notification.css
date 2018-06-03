@@ -1,0 +1,51 @@
+@import "bourbon";
+
+$border-size: 0.25em;
+$border-color: hsl(0, 90, 40);
+
+.notifications {
+  position: absolute;
+  top: calc(50% + 1em);
+  left: calc(50%);
+  box-shadow: 0 0 0 0.5em hsla(0, 0, 0, 0.1);
+  transform: translate(-50%, -50%);
+}
+
+.notification {
+  position: relative;
+  width: 20em;
+  padding: 0 1em;
+  font-size: 0.8em;
+  line-height: 3.125;
+  color: white;
+  cursor: pointer;
+  @include linear-gradient(hsl(0, 0, 17), hsl(0, 0, 15));
+}
+
+.notification:hover {
+   @include linear-gradient(tomato, darken(tomato, 20%));
+}
+
+.notify:after {
+  content: '1';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 1.3333em;
+  width: 2em;
+  margin: 1.0833em 0;
+  border-radius: 50%;
+  font-size: 0.75em;
+  line-height: 2;
+  text-align: center;
+  background: hsl(0, 90, 60);
+  box-shadow: 0 0 0 $border-size $border-color;
+  animation: pulse 0.75s infinite;
+}
+
+@include keyframes (pulse) {
+  0%   { box-shadow: 0 0 0 #{$border-size * 0.8} $border-color; }
+  25%  { box-shadow: 0 0 0 #{$border-size * 0.2} $border-color; }
+  50%  { box-shadow: 0 0 0 #{$border-size * 1.5} $border-color; }
+  75%  { box-shadow: 0 0 0 #{$border-size * 0.8} $border-color; }
+  100% { box-shadow: 0 0 0 #{$border-size * 1.2} $border-color; }

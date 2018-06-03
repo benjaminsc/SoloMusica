@@ -1,0 +1,82 @@
+
+body{
+  /*background-image:url('/register/img/391336.jpg');*/
+  background-image:url('/register/img/fondo4.jpg');
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+	margin: 0;
+
+}
+form{
+
+}
+ form h2{
+	color: #fff;
+	text-align: center;
+	margin: 0;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.input-texto{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.checkbox{
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+form .btn{
+	background-color: #e3832a;
+	border-color: #e3832a;
+	color: #fff;
+	font-size: 20px;
+  width: 200px;
+}
+ form .btn:hover{
+	background-color: #e8690d;
+	border-color: #e8690d;
+	color: #fff;
+	font-size: 20px;
+
+
+}
+@media(max-width:480px){
+	form{
+		width: 100%;
+	}
+}
+/*div div form{   //boton de khipu
+		position:auto;
+		height: 50px;
+		width: 110px;
+		display:block;
+		float: left;
+}*/
+.contenedor1{
+  width: 450px;
+  margin: auto;
+  margin-top: 100px;
+  background: rgba(54, 50, 50, 0.61);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border-radius: 7px;
+  font-family: monospace;
+}
+
+/*configuracion de los botones de pago khipu*/
+#informacion{
+  margin-top: 5px;
+}
+div div form{
+  display: inline;
+  margin-left: 40px;
+}
+/*configuracion de los botones de pago paypal*/
+#img-paypal{
+display: inline;
+margin-top: 3px;
+}
+ul li{
+	font-weight: bold;
+}

@@ -1,0 +1,150 @@
+.precio{
+
+	color: #e8690d;
+	font-weight: bold;
+}
+
+div div a:hover{
+	text-decoration: none;
+}
+
+button.btn-articulo:hover{
+	color: rgb(255, 255, 255);
+}
+
+.btn-articulo{
+
+	background-color:#ea9c51;
+	color: rgb(255, 255, 255);
+}
+.precio-articulo{
+	font-weight: bold;
+}
+
+.it{       /*tamaño imagen del slider*/
+	width: 470px;
+	height: 300px;
+}
+#resultado{
+	margin:auto;
+	font-weight: bold;
+
+	/*barra de busqueda (input) al centro*/
+}
+
+
+.contenido{ /*rgb(216, 209, 219)*/
+	background-color: rgba(158, 158, 158, 0.36);
+	padding: 10px;
+	border-radius: 5px;
+	font-family: cursive;
+}
+
+.contenedor{
+	width: 650px;
+	height: 77px;
+	margin: 5px 94px;
+	background-color: rgb(235, 228, 238);
+	border-radius: 2px;
+
+}
+
+.pregunta{
+	margin-top: 5px;
+	width: 600px;
+	float: left;
+	border-radius: 5px;
+	padding: 1px;
+
+}
+.respuesta{
+
+	width: 600px;
+	float: right;
+	border-radius: 5px;
+	padding: 1px;
+}
+.p{
+		background-color: rgb(255, 255, 255);
+		display: inline;
+		float: left;
+		padding: 3px 8px;
+		border-radius: 6px;
+		/*font-weight: bold;*/
+		font-family: cursive;
+		color: rgb(70, 65, 68)
+
+}
+.r{
+	background-color:rgb(249, 113, 26); /*color#f0ad4e; */
+	display: inline;
+	float: left;
+	padding: 3px 8px;
+	border-radius: 6px;
+	/*font-weight: bold;*/
+	font-family: cursive;
+	color: rgb(255, 255, 255);
+}
+
+.div_comm{
+	height: 200px;
+	overflow-y: auto;}
+
+
+/*footer realy*/
+footer{
+
+     background-color: #33383c;
+     padding:30px 0px;
+		 top: 100%;
+		 bottom: 1%;
+}
+
+.siguenos{
+    color:#FFF;
+    font-weight:800;
+    font-size:30px;
+}
+
+.adress span , .menu span{
+   color: #FFF;
+   font-weight: 800;
+   border-bottom: 1px solid #c7c7c7;
+   padding-bottom: 10px;
+   margin-bottom: 20px;
+   display: block;
+   text-transform: uppercase;
+   font-size: 10px;
+   letter-spacing: 3px;
+}
+
+.adress li a , .menu li a{
+    color:#FFF;
+    letter-spacing: 3px;
+    text-decoration:none;
+    font-size:12px;
+		font-weight: bold;
+}
+
+.adress li, .menu li{
+    margin-top: 5px;
+    list-style: none;
+}
+
+.adress li a:hover , .menu li a:hover{
+    color: rgb(249, 113, 26);
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.fa{
+    color: rgb(249, 113, 26);
+    margin-right: 10px;
+    font-size:14px;
+}
+.makina{
+	/*height: 500px;*/
+	min-height: 510px;
+}

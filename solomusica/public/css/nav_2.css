@@ -1,0 +1,154 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+
+
+header {
+	margin-top:10px;
+    width: 100%;
+    overflow: hidden;
+    height: 150px;
+    position: relative;
+}
+
+
+nav {
+    top:-20px;
+    position: absolute;
+    left:0;
+    right:0;
+		margin:20px auto;
+		max-width:100%;
+		width:100%;
+
+}
+
+nav ul {
+	list-style:none;
+}
+
+nav > ul {
+	display:table;
+	/*Quitamos el overflow hidden que estaba aqui*/
+	width:100%;
+	background:#000;
+	position:relative;
+
+
+}
+
+nav > ul li {
+	display:table-cell;
+}
+
+/*Sub-menu*/
+nav > ul > li:hover > ul {
+	display:block;
+	height:100%;
+
+}
+
+nav > ul > li > ul {
+	display:block;
+	position:absolute;
+	background:#e8690d;
+	left:0;
+	right:0;
+	overflow:hidden;
+	height:0%;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+
+}
+
+nav > ul li a {
+	color:#fff;
+	display:block;
+	line-height:20px;
+	padding:20px;
+	position: relative;
+	text-align:center;
+	text-decoration:none;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+nav > ul > li > ul > li a:hover {
+	background:#e8690d;
+	text-decoration:none;
+	color:rgba(241, 239, 239, 0.64);
+}
+
+nav > ul > li > a span {
+	background:#e8690d;
+	display:block;
+	height:100%;
+	width:100%;
+	left:0;
+	position:absolute;
+	top:-55px;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+nav > ul > li > a span .icon {
+	display:block;
+	line-height:60px;
+}
+
+nav > ul > li > a:hover > span {
+	top:0;
+	font-size: 20px;
+}
+.logo{
+	width: 54px;
+	height: 52px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+/*Colores*/
+
+
+nav ul li a .primero {
+	background:#5da5a2;
+	text-decoration:none;
+}
+
+
+nav ul li a .segundo {
+	background:#f25724;
+	text-decoration:none;
+}
+
+nav ul li a .tercero {
+  background:#174459;
+	text-decoration:none;
+}
+.solomusica{
+	font-size: 30px;
+	font-family: 'Russo One', sans-serif;
+	color: rgb(241, 255, 253);
+
+}
+nav > ul > li > a:hover {
+color: rgb(249, 237, 220);
+text-decoration: none;
+}
+form{
+	position:relative;
+	left: 45px;
+
+
+}
